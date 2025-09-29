@@ -1,0 +1,35 @@
+Project Title: QE E-Commerce Testing Automation
+Description:
+This project demonstrates end-to-end QE testing of a sample e-commerce application using multiple tools:
+
+Playwright → Fast, modern UI automation
+
+Cypress → Reliable JS-based UI testing
+
+Selenium → Cross-browser legacy UI automation
+
+Postman → API testing & automation
+
+Features Covered:
+
+Login / Logout
+
+Product search & filter
+
+Add to Cart / Remove from Cart
+
+Checkout flow
+
+API validation (Login, Products, Cart, Checkout)
+
+CI/CD integration (GitHub Actions, Jenkins)
+
+How to Run Tests:
+
+Playwright → npx playwright test
+
+Cypress → npx cypress run
+
+Selenium → mvn test
+
+Postman → newman run Ecommerce.postman_collection.json
